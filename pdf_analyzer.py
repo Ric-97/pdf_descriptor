@@ -176,7 +176,8 @@ def calculate_tokens(num_pages):
 
 # Streamlit UI
 st.title("📄 PDF Descriptor with Ai Vision")
-st.markdown("Upload a PDF file to get a detailed Italian description using Anthropic's native PDF processing")
+st.markdown("Upload a PDF file to get a detailed Italian description using Ai with vision")
+st.markdown("Use your personal API key")
 
 # Provider selection
 provider = st.selectbox(
