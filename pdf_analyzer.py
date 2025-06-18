@@ -248,7 +248,7 @@ st.markdown("Upload a PDF file to get a detailed Italian description using AI wi
 st.markdown("Use your personal API key")
 
 # Create tabs
-tab1, tab2 = st.tabs(["📋 Standard Analysis", "🎓 trainers assitant"])
+tab1, tab2 = st.tabs(["📋 Standard Analysis", "🎓 Trainers assitant"])
 
 # Shared components function
 def render_analysis_ui(mode="standard"):
@@ -443,9 +443,9 @@ with tab1:
     st.markdown("Get a detailed description of each page in your PDF document.")
     render_analysis_ui(mode="standard")
 
-# Tab 2: trainers assitant
+# Tab 2: Trainers assitant
 with tab2:
-    st.markdown("### 🎓 trainers assitant")
+    st.markdown("### 🎓 Trainers assitant")
     st.markdown("Transform your PDF into a comprehensive technical lesson with a discourse format, perfect for teaching or presentations.")
     st.info("💡 This mode creates a flowing narrative that explains the PDF content as a structured lesson, integrating all information into a cohesive educational discourse.")
     render_analysis_ui(mode="discourse")
