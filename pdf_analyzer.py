@@ -366,7 +366,7 @@ def render_analysis_ui(mode="standard"):
             st.write(f"- Expected output tokens: {tokens['output_tokens']:,}")
 
     # Process button
-    button_text = "🎓 Create Technical Lesson" if mode == "discourse" else "🚀 Analyze PDF"
+    button_text = "🎓 super power for trainers" if mode == "discourse" else "🚀 Analyze PDF"
     if st.button(button_text, type="primary", disabled=not (uploaded_file and api_key), key=f"analyze_{mode}"):
         if uploaded_file and api_key:
             model_name_for_file = None
