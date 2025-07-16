@@ -459,7 +459,7 @@ with st.expander("ℹ️ How to Use"):
        - OpenAI: [Platform](https://platform.openai.com/api-keys)
     2. **Select Tab**:
        - **Standard Analysis**: Page-by-page detailed description
-       - **Technical Lesson**: Discourse format for teaching
+       - **Trainers assitant**: Discourse format for teaching
     3. **Choose Model**: 
        - Haiku 3.5: Fastest and cheapest
        - Sonnet 4: Best balance (recommended)
@@ -470,37 +470,8 @@ with st.expander("ℹ️ How to Use"):
     
     ### 💡 Tips
     - **Standard Analysis** is best for documentation and reference
-    - **Technical Lesson** is ideal for creating educational content
+    - **Trainers assitant** is ideal for creating educational content
     - **Additional Context** in lesson mode helps create more comprehensive lectures
-    """)
-
-# Technical details
-with st.expander("🔧 Technical Details"):
-    st.markdown("""
-    ### 🆕 Native PDF Processing
-    This app uses Anthropic's native PDF support introduced in 2025:
-    - **Direct PDF upload** without conversion
-    - **Dual processing**: Text extraction + visual analysis
-    - **Supported formats**: Standard PDF (no encryption)
-    - **Limits**: 32MB file size, 100 pages max
-    
-    ### 📊 Token Usage
-    - **Text tokens**: ~1,500-3,000 per page
-    - **Image tokens**: ~1,600 per page
-    - **Total**: ~3,100-4,600 tokens per page
-    
-    ### 🎓 Lesson Format Features
-    - **Structured narrative**: Introduction, development, conclusions
-    - **Educational approach**: Concepts explained progressively
-    - **Context integration**: User-provided text woven into the lesson
-    - **Practical focus**: Real-world applications and examples
-    
-    ### 🤖 Supported Models
-    - Claude Opus 4 (`claude-opus-4-20250514`)
-    - Claude Sonnet 4 (`claude-sonnet-4-20250514`)
-    - Claude Sonnet 3.7 (`claude-3-7-sonnet-20250219`)
-    - Claude 3.5 Sonnet (`claude-3-5-sonnet-20241022`)
-    - Claude 3.5 Haiku (`claude-3-5-haiku-20241022`)
     """)
 
 # Footer
